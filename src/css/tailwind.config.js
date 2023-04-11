@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero': "url('../images/testimonial.jpg')",
+      },
       colors: {
         gray: {
           100: '#FBFBFB',
