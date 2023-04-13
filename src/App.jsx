@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import {
+  HashRouter,
   Routes,
   Route,
   useLocation
@@ -36,12 +37,14 @@ function App() {
 
   return (
     <>
+    <HashRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="#/signin" element={<SignIn />} />
+        <Route path="#/signup" element={<SignUp />} />
+        <Route path="#/reset-password" element={<ResetPassword />} />
       </Routes>
+    </HashRouter>  
     </>
   );
 }
