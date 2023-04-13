@@ -17,7 +17,7 @@ function Footer() {
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">©2023, FitFrame Technologies Ltd.</div>
           <br/>
-          <div className="text-sm text-gray-600 mr-4">FitAI Trainer and FitCore Technology are all trademarks of FitFrame Technologies</div>
+          <div className="text-sm text-gray-600 mr-4">FitCore Technology is a trademark of FitFrame Technologies Ltd.</div>
 
         </div>
 

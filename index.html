@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FitFrame</title>
   </head>
@@ -18,8 +19,14 @@
         } else {
             document.querySelector('body').classList.remove('sidebar-expanded');
         }
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
     </script>   
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   </body>
 </html>
