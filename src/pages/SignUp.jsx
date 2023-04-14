@@ -39,7 +39,7 @@ function SignUp() {
                   </div>
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button type="submit" class="btn text-white bg-blue-600 hover:bg-blue-700 w-full pageclip-form__submit">Join the future of fitness!</button>
+                      <button type="submit" class="btn text-white bg-blue-600 hover:bg-blue-700 w-full pageclip-form__submit" style={{'font-family':'Montserrat'}}>Join the future of fitness!</button>
                     </div>
                   </div>
                   <div className="text-sm text-gray-500 text-center mt-3">

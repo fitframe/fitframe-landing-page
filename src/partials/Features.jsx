@@ -48,7 +48,7 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Dive into the fitverse</h3>
+                <h3 className="h3 mb-3" style={{'font-family':'Montserrat'}}>Dive into the fitverse</h3>
                 <p className="text-xl text-gray-600">FitFrame has a lot to offer when it comes to helping you be fit and healthy</p>
               </div>
               {/* Tabs buttons */}
@@ -59,7 +59,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">It's an everyday thing</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1" style={{'font-family':'Montserrat'}}>It's an everyday thing</div>
                     <div className="text-gray-600">Fitness isn't a one day affair. FitFrame provides you daily workout stats so you can track your progress and be consistent.</div>
                   </div>
                 </a>
@@ -69,7 +69,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">One size does NOT fit all</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1" style={{'font-family':'Montserrat'}}>One size does NOT fit all</div>
                     <div className="text-gray-600">That's why FitFrame provides you with your very own workout plans and targets, based on your body type and fitness goals.</div>
                   </div>
                 </a>
@@ -79,7 +79,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Attention? You have all of it</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1" style={{'font-family':'Montserrat'}}>Attention? You have all of it</div>
                     <div className="text-gray-600">FitFrame provides you your very own fitness trainer, FitGuru, powered by AI. Now you can ask your trainer for any help at any time.</div>
                   </div>
                 </a>
