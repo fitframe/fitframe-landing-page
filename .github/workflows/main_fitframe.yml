@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'FitFrame'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_24B254235DC546EF9008F7B21BBB3602 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_58C325303E3A4794B2B0FFF5427745A8 }}
           package: .
